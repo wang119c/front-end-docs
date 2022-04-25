@@ -1,7 +1,7 @@
 module.exports = {
 	title: '大前端杂记', // 设置网站标题
 	description: '记录工作中遇到问题及处理方案,以及一些插件文档', // 网站的描述
-	base: '/', // 部署站点的基础路径
+	base: '/front-end-docs/', // 部署站点的基础路径
 	head: [
 		['link', {
 			rel: 'icon',
