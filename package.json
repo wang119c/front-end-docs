@@ -1,0 +1,17 @@
+{
+	"name": "front-end-docs",
+	"version": "1.0.0",
+	"main": "index.js",
+	"dependencies": {
+		"vuepress": "^1.9.7"
+	},
+	"scripts": {
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@vuepress/plugin-back-to-top": "^1.9.7",
+		"@vuepress/plugin-nprogress": "^1.9.7"
+	}
+}
