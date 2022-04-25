@@ -17,7 +17,7 @@ module.exports = {
 	},
 	themeConfig: {
 		logo: '/images/hero.png',
-		displayAllHeaders: true,
+		displayAllHeaders: false,
 		nav: [{
 			text: '主页',
 			link: '/'
@@ -40,7 +40,6 @@ module.exports = {
 		sidebar: {
 			'/front-end/vue/': [{
 				title: 'vue笔记',
-				collapsable: false,
 				children: [{
 						title: 'vue11111',
 						path: '/front-end/vue/vue01.md'
@@ -53,7 +52,6 @@ module.exports = {
 			}],
 			'/front-end/react/': [{
 				title: 'react笔记',
-				collapsable: false,
 				children: [{
 						title: 'react1111',
 						path: '/front-end/react/react01.md'
@@ -66,7 +64,7 @@ module.exports = {
 			}],
 			'/front-end/vuepress/': [{
 				title: 'vuepress笔记',
-				collapsable: false,
+				collapsable: true ,
 				children: [{
 						title: '快速搭建',
 						path: '/front-end/vuepress/快速搭建.md'
