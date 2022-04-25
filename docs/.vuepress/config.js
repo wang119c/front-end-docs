@@ -36,6 +36,9 @@ module.exports = {
 					link: '/front-end/vuepress/快速搭建'
 				}
 			]
+		}, {
+			text: 'GitHub',
+			link: 'https://github.com/wang119c/front-end-docs'
 		}],
 		sidebar: {
 			'/front-end/vue/': [{
@@ -64,7 +67,7 @@ module.exports = {
 			}],
 			'/front-end/vuepress/': [{
 				title: 'vuepress笔记',
-				collapsable: true ,
+				collapsable: true,
 				children: [{
 						title: '快速搭建',
 						path: '/front-end/vuepress/快速搭建.md'
