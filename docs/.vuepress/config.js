@@ -1,3 +1,4 @@
+const menuVuePress = require('./menu/vuepress.js')
 module.exports = {
 	title: '大前端杂记', // 设置网站标题
 	description: '记录工作中遇到问题及处理方案,以及一些插件文档', // 网站的描述
@@ -65,35 +66,7 @@ module.exports = {
 					}
 				]
 			}],
-			'/front-end/vuepress/': [{
-				title: 'vuepress笔记',
-				collapsable: true,
-				children: [{
-						title: '快速搭建',
-						path: '/front-end/vuepress/快速搭建.md'
-					},
-					{
-						title: '目录结构',
-						path: '/front-end/vuepress/目录结构.md'
-					},
-					{
-						title: '基本配置',
-						path: '/front-end/vuepress/基本配置.md'
-					},
-					{
-						title: 'Markdown详解',
-						path: '/front-end/vuepress/Markdown详解.md'
-					},
-					{
-						title: '实用插件',
-						path: '/front-end/vuepress/实用插件.md'
-					},
-					{
-						title: '部署',
-						path: '/front-end/vuepress/部署.md'
-					}
-				]
-			}]
+			'/front-end/vuepress/': menuVuePress
 		},
 		sidebarDepth: 2,
 		lastUpdated: 'Last Updated'
