@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>安装相关依赖 | 大前端杂记</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/front-end-docs/images/logo.png">
+    <meta name="description" content="记录工作中遇到问题及处理方案,以及一些插件文档">
+    
+    <link rel="preload" href="/front-end-docs/assets/css/0.styles.3f5cd4c5.css" as="style"><link rel="preload" href="/front-end-docs/assets/js/app.a2f340e5.js" as="script"><link rel="preload" href="/front-end-docs/assets/js/2.ee26938b.js" as="script"><link rel="preload" href="/front-end-docs/assets/js/9.7701e236.js" as="script"><link rel="prefetch" href="/front-end-docs/assets/js/10.65d82c2b.js"><link rel="prefetch" href="/front-end-docs/assets/js/11.39b46877.js"><link rel="prefetch" href="/front-end-docs/assets/js/12.9a8a3f0b.js"><link rel="prefetch" href="/front-end-docs/assets/js/13.d8fc54e4.js"><link rel="prefetch" href="/front-end-docs/assets/js/14.f9fcf3c4.js"><link rel="prefetch" href="/front-end-docs/assets/js/15.48aa8c9d.js"><link rel="prefetch" href="/front-end-docs/assets/js/16.c6627c1a.js"><link rel="prefetch" href="/front-end-docs/assets/js/17.f3661fc5.js"><link rel="prefetch" href="/front-end-docs/assets/js/3.47b60fb2.js"><link rel="prefetch" href="/front-end-docs/assets/js/4.35addd36.js"><link rel="prefetch" href="/front-end-docs/assets/js/5.b74eaa36.js"><link rel="prefetch" href="/front-end-docs/assets/js/6.6e41bdef.js"><link rel="prefetch" href="/front-end-docs/assets/js/7.dfc89acd.js"><link rel="prefetch" href="/front-end-docs/assets/js/8.2b8c9ac4.js">
+    <link rel="stylesheet" href="/front-end-docs/assets/css/0.styles.3f5cd4c5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/front-end-docs/" class="home-link router-link-active"><img src="/front-end-docs/images/hero.png" alt="大前端杂记" class="logo"> <span class="site-name can-hide">大前端杂记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/front-end-docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vue/vue01.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/react/react01.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vuepress/快速搭建.html" class="nav-link">
+  vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/other/使用husk.html" class="nav-link">
+  杂记
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/wang119c/front-end-docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/front-end-docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vue/vue01.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/react/react01.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vuepress/快速搭建.html" class="nav-link">
+  vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/other/使用husk.html" class="nav-link">
+  杂记
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/wang119c/front-end-docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>杂记</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/front-end-docs/front-end/other/使用husk.html" class="active sidebar-link">使用husk</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="安装相关依赖"><a href="#安装相关依赖" class="header-anchor">#</a> 安装相关依赖</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>cnpm install husky lint-staged -D
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="要在安装后自动启用-git-挂钩-请编辑-package-json"><a href="#要在安装后自动启用-git-挂钩-请编辑-package-json" class="header-anchor">#</a> 要在安装后自动启用 Git 挂钩，请编辑 package.json</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>npm set-script prepare &quot;husky install&quot;
+此时应该有：
+// package.json
+{
+  &quot;scripts&quot;: {
+    &quot;prepare&quot;: &quot;husky install&quot;
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="在-package-json-中配置lint-staged"><a href="#在-package-json-中配置lint-staged" class="header-anchor">#</a> 在 package.json 中配置lint-staged</h3> <p>注：这里 lint-staged 的配置是：在 git 的待提交的文件中，在 src 目录下的所有指定文件都要执行已配置的命令。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// package.json
+{
+   &quot;lint-staged&quot;: {
+    &quot;src/**/*.{css，scss,less}&quot;: [
+      &quot;git add&quot; //继续git流程
+    ],
+    &quot;src/**/*.{js,vue,jsx}&quot;: [
+       &quot;eslint --fix&quot;, // eslint检测修复
+       &quot;git add&quot; //继续git流程
+    ]
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="执行命令创建-pre-commit-钩子"><a href="#执行命令创建-pre-commit-钩子" class="header-anchor">#</a> 执行命令创建 pre-commit 钩子</h3> <p>注：npx是npm5.2之后发布的一个命令。官网说它是“execute npm package binaries”，就是执行npm依赖包的二进制文件，npx 主要用于命令行的寻址等辅助功能上，而 npm 是管理依赖的。简而言之，就是我们可以使用npx来执行各种命令。npx官网</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>//使用执行 lint-statged 使用本地资源 不下载
+npx husky add .husky/pre-commit &quot;npx --no-install lint-staged&quot; 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>执行命令完成后.husky文件夹中会有一个 pre-commit (修改其中的代码,就是提交代码前需要执行的检查代码的命令)。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>#!/bin/sh
+. &quot;$(dirname &quot;$0&quot;)/_/husky.sh&quot;
+
+//使用执行 lint-statged 使用本地资源 不下载
+npx --no-install lint-staged
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>以上，针对husky自定义目录钩子的调整就结束了，当前子目录下的所有husky指令会通过.husky目录去执行。</p> <h3 id="安装配置安装-eslint"><a href="#安装配置安装-eslint" class="header-anchor">#</a> 安装配置安装 eslint</h3> <p>需要安装eslint
+完成之后，在每次提交代码之前，pre-commit都会拦截 Git 的 commit 操作，然后运行lint-staged命令进行代码检测，若检测到有违反校验规则的情况，则会返回错误，从而导致git commit失败。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>验证
+git add .
+git commit -m &quot;test&quot;
+绕过
+git commit -m &quot;test&quot; --no-verify
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>如果出现未验证的情况</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>在package.json添加并执行
+&quot;scripts&quot;: { &quot;prepare&quot;: &quot;husky install&quot; }
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">5/22/2022, 12:16:17 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/front-end-docs/assets/js/app.a2f340e5.js" defer></script><script src="/front-end-docs/assets/js/2.ee26938b.js" defer></script><script src="/front-end-docs/assets/js/9.7701e236.js" defer></script>
+  </body>
+</html>

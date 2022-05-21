@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>首页配置 | 大前端杂记</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/front-end-docs/images/logo.png">
+    <meta name="description" content="记录工作中遇到问题及处理方案,以及一些插件文档">
+    
+    <link rel="preload" href="/front-end-docs/assets/css/0.styles.3f5cd4c5.css" as="style"><link rel="preload" href="/front-end-docs/assets/js/app.a2f340e5.js" as="script"><link rel="preload" href="/front-end-docs/assets/js/2.ee26938b.js" as="script"><link rel="preload" href="/front-end-docs/assets/js/13.d8fc54e4.js" as="script"><link rel="prefetch" href="/front-end-docs/assets/js/10.65d82c2b.js"><link rel="prefetch" href="/front-end-docs/assets/js/11.39b46877.js"><link rel="prefetch" href="/front-end-docs/assets/js/12.9a8a3f0b.js"><link rel="prefetch" href="/front-end-docs/assets/js/14.f9fcf3c4.js"><link rel="prefetch" href="/front-end-docs/assets/js/15.48aa8c9d.js"><link rel="prefetch" href="/front-end-docs/assets/js/16.c6627c1a.js"><link rel="prefetch" href="/front-end-docs/assets/js/17.f3661fc5.js"><link rel="prefetch" href="/front-end-docs/assets/js/3.47b60fb2.js"><link rel="prefetch" href="/front-end-docs/assets/js/4.35addd36.js"><link rel="prefetch" href="/front-end-docs/assets/js/5.b74eaa36.js"><link rel="prefetch" href="/front-end-docs/assets/js/6.6e41bdef.js"><link rel="prefetch" href="/front-end-docs/assets/js/7.dfc89acd.js"><link rel="prefetch" href="/front-end-docs/assets/js/8.2b8c9ac4.js"><link rel="prefetch" href="/front-end-docs/assets/js/9.7701e236.js">
+    <link rel="stylesheet" href="/front-end-docs/assets/css/0.styles.3f5cd4c5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/front-end-docs/" class="home-link router-link-active"><img src="/front-end-docs/images/hero.png" alt="大前端杂记" class="logo"> <span class="site-name can-hide">大前端杂记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/front-end-docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vue/vue01.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/react/react01.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vuepress/快速搭建.html" class="nav-link">
+  vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/other/使用husk.html" class="nav-link">
+  杂记
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/wang119c/front-end-docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/front-end-docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vue/vue01.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/react/react01.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/vuepress/快速搭建.html" class="nav-link">
+  vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/front-end-docs/front-end/other/使用husk.html" class="nav-link">
+  杂记
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/wang119c/front-end-docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>vuepress笔记</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/front-end-docs/front-end/vuepress/快速搭建.html" class="sidebar-link">快速搭建</a></li><li><a href="/front-end-docs/front-end/vuepress/目录结构.html" class="sidebar-link">目录结构</a></li><li><a href="/front-end-docs/front-end/vuepress/基本配置.html" class="active sidebar-link">基本配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#首页配置" class="sidebar-link">首页配置</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#config-js配置文件" class="sidebar-link">config.js配置文件</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#系统公共配置说明" class="sidebar-link">系统公共配置说明</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#head说明" class="sidebar-link">head说明</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#导航栏" class="sidebar-link">导航栏</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#导航栏-logo" class="sidebar-link">导航栏 Logo</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#导航栏链接" class="sidebar-link">导航栏链接</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#禁用导航栏" class="sidebar-link">禁用导航栏</a></li></ul></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#侧边栏" class="sidebar-link">侧边栏</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#嵌套的标题链接" class="sidebar-link">嵌套的标题链接</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#显示所有页面的标题链接" class="sidebar-link">显示所有页面的标题链接</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#禁用侧边栏" class="sidebar-link">禁用侧边栏</a></li></ul></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#搜索框" class="sidebar-link">搜索框</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#内置搜索" class="sidebar-link">内置搜索</a></li></ul></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#最后更新时间" class="sidebar-link">最后更新时间</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#上-下一篇链接" class="sidebar-link">上 / 下一篇链接</a></li></ul></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#页面滚动" class="sidebar-link">页面滚动</a></li><li class="sidebar-sub-header"><a href="/front-end-docs/front-end/vuepress/基本配置.html#front-matter参数" class="sidebar-link">front-matter参数</a></li></ul></li><li><a href="/front-end-docs/front-end/vuepress/Markdown详解.html" class="sidebar-link">Markdown详解</a></li><li><a href="/front-end-docs/front-end/vuepress/实用插件.html" class="sidebar-link">实用插件</a></li><li><a href="/front-end-docs/front-end/vuepress/部署.html" class="sidebar-link">部署</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="首页配置"><a href="#首页配置" class="header-anchor">#</a> 首页配置</h2> <p>首页配置文件是doc目录下的README.md文件，以下是一个如何使用的例子：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>---
+home: true
+heroImage: /hero.png
+heroText: Hero 标题
+tagline: Hero 副标题
+actionText: 快速上手 →
+actionLink: /guide/
+features:
+- title: 简洁至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+- title: Vue驱动
+  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+- title: 高性能
+  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+footer: MIT Licensed | Copyright © 2018-present Evan You
+---
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><ul><li>home：设置为true，意思时启用默认主题，对一般人来说，默认主题就够用了，专注写作就好。</li> <li>hero：Image是设置首页图片的，图片的根路径是doc/.vuepress/public</li> <li>actionText与actionLink是一对，就是首页的一个链接按钮，具体链接到那里自己定义。</li> <li>其它属性跑起来之后就能直观感受了，没什么可说的。不需要的配置可以删除。</li></ul> <h2 id="config-js配置文件"><a href="#config-js配置文件" class="header-anchor">#</a> config.js配置文件</h2> <p>config.js里面包含了系统头部导航、左侧菜单、系统插件等配置。 config.js的路径为doc/.vupress/config.js，内容如下：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>module.exports = {
+    title: '前端',// 设置网站标题
+    description: '前端xxx',
+    base: '/',   // 设置站点根路径
+    dest: './ROOT',  // 设置输出目录
+    port: 8086,
+    head: [],
+    plugins: [],
+    themeConfig: {
+        // 添加导航栏
+        nav: [
+            { text: '主页', link: '/' },
+            { text: '指南', link: '/guide/' },
+            { text: '生活', link: '/life/'},
+            { text: '学习',
+                items: [
+                    { text: '英语', link: '/study/english/english01' },
+                    { text: '数学', link: '/study/math/math01' },
+                ]
+            }
+			],
+        // 为以下路由添加左侧边栏
+        sidebar: {
+            '/life/': [
+                {
+                    title: '生活测试',
+                    collapsable: false,
+                    children: [
+                        { title: '生活测试01', path: '/life/life01' },
+                        { title: '生活测试02', path: '/life/life02' },
+                        { title: '生活测试03', path: '/life/life03' },
+                    ]
+                }
+            ],
+            '/study/english/': [
+                {
+                    title: '英语',
+                    collapsable: false,
+                    children: [
+                        { title: '第一节', path: '/study/english/english01' },
+                        { title: '第二节', path: '/study/english/english02' },
+                        { title: '第三节', path: '/study/english/english03' },
+                    ]
+                }
+            ],
+            '/study/math/': [
+                {
+                    title: '数学',
+                    collapsable: false,
+                    children: [
+                        { title: '第一节', path: '/study/math/math01' },
+                        { title: '第二节', path: '/study/math/math02' },
+                        { title: '第三节', path: '/study/math/math03' },
+                    ]
+                }
+            ],
+        },
+        sidebarDepth: 2,//左侧导航显示的层级
+        lastUpdated: 'Last Updated'
+    }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br></div></div><h2 id="系统公共配置说明"><a href="#系统公共配置说明" class="header-anchor">#</a> 系统公共配置说明</h2> <ul><li>title: 设置网站标题</li> <li>description: 网站的描述</li> <li>base: 设置站点根路径，如果访问的时候是ip+端口，那么这里就是/，如果访问的是ip+端口+工程名，那么这里就是/工程名/</li> <li>dest: 设置编译后的输出目录./ROOT代表在工程的根目录下生成一个ROOT文件，里面是编译好的文件，可以拿ROOT直接部署。</li> <li>port: 本地调试的端口号，默认是8080</li></ul> <h2 id="head说明"><a href="#head说明" class="header-anchor">#</a> head说明</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>额外的需要被注入到当前页面的 HTML &lt;head&gt; 中的标签，每个标签都可以以 [tagName, { attrName: attrValue }, innerHTML?] 的格式指定，举例如下：
+module.exports = {
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }] // 增加一个自定义的 favicon
+    ['link', { rel: 'manifest', href: '/manifest.json' }], //PWA 插件需要引入的manifest
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }], //&lt;meta&gt; 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
+    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+  ]
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h2 id="导航栏"><a href="#导航栏" class="header-anchor">#</a> 导航栏</h2> <p>导航栏可能包含你的页面标题、搜索框、 导航栏链接、多语言切换、仓库链接，它们均取决于你的配置。</p> <h3 id="导航栏-logo"><a href="#导航栏-logo" class="header-anchor">#</a> 导航栏 Logo</h3> <p>你可以通过 themeConfig.logo 增加导航栏 Logo ，Logo 可以被放置在公共文件目录（就是我们的doc/puclic）：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    logo: '/assets/img/logo.png',
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="导航栏链接"><a href="#导航栏链接" class="header-anchor">#</a> 导航栏链接</h3> <p>你可以通过 themeConfig.nav 增加一些导航栏链接:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    nav: nav: [
+        { text: '主页', link: '/' },
+        { text: '指南', link: '/guide/' },
+        { text: '生活', link: '/life/'},
+        { text: '学习',
+            items: [
+                { text: '英语', link: '/study/english/english01' },
+                { text: '数学', link: '/study/math/math01' }
+            ]
+        },
+        { text: '菜单分组测试', items: [
+          { text: 'test1',  items: [
+                  { text: 'test1-1', link: '/frontend/test1-1/' },
+                  { text: 'test1-2', link: '/frontend/test1-2/' }
+              ]},
+          { text: 'teset2', items: [
+                  { text: 'test2-1', link: '/frontend/test2-1/' },
+                  { text: 'test2-2', link: '/frontend/test2-2/' }
+              ] }
+      ]}
+    ],
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><p>一组text和link就是一个菜单（例如本例的主页、指南和生活），一个菜单还可以有子菜单，可以有一组（本例的“学习”），也可以有多组（例如本例的“菜单分组测试”）</p> <h3 id="禁用导航栏"><a href="#禁用导航栏" class="header-anchor">#</a> 禁用导航栏</h3> <p>你可以使用 themeConfig.navbar 来禁用所有页面的导航栏：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    navbar: false
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>你也可以通过 YAML front matter 来禁用某个指定页面的导航栏：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>在当前页面头部输入下面代码就会在这个页面禁用导航栏
+---
+navbar: false
+---
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="侧边栏"><a href="#侧边栏" class="header-anchor">#</a> 侧边栏</h2> <p>想要使 侧边栏（Sidebar）生效，需要配置 themeConfig.sidebar，基本的配置，需要一个包含了多个链接的数组：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// .vuepress/config.js
+sidebar: {
+    '/life/': [
+        {
+            title: '生活测试',
+            collapsable: false,
+            children: [
+                { title: '生活测试01', path: '/life/life01' },
+                { title: '生活测试02', path: '/life/life02' },
+                { title: '生活测试03', path: '/life/life03' },
+            ]
+        }
+    ],
+    '/study/english/': [
+        {
+            title: '英语',
+            collapsable: false,
+            children: [
+                { title: '第一节', path: '/study/english/english01' },
+                { title: '第二节', path: '/study/english/english02' },
+                { title: '第三节', path: '/study/english/english03' },
+            ]
+        }
+    ],
+    '/study/math/': [
+        {
+            title: '数学',
+            collapsable: false,
+            children: [
+                { title: '第一节', path: '/study/math/math01' },
+                { title: '第二节', path: '/study/math/math02' },
+                { title: '第三节', path: '/study/math/math03' },
+            ]
+        }
+    ],
+},
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><p>我们以“生活测试”举例说明：</p> <ul><li>这个示例是多个侧边栏，“生活测试”是一个侧边栏。最前面的/life/表示“生活测试”的侧边栏，同理“英语”和“数学”也有自己的侧边栏</li> <li>title就是这个页面的标题（如果我们在页面也指定了标题的话以在页面指定的为准）</li> <li>collapsable表示把标题合起来，默认是true，我们一般设置为false，让标题自动展开</li> <li>path是页面路径。</li> <li>以 / 结尾的路径将会被视为 */README.md，/life/表示doc/life/README.md文件。</li> <li>以文件名结尾，可以省略 .md 拓展名，例如/life/life01表示doc/life/life01.MD文件。</li></ul> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>如果系统比较简单，只想用一个侧边栏，最简单的办法就是把我们本例的“英语”和“数学”侧边栏去掉，只保留生活的，并且把/life/改成/就可以了</p></div> <h3 id="嵌套的标题链接"><a href="#嵌套的标题链接" class="header-anchor">#</a> 嵌套的标题链接</h3> <p>默认情况下，侧边栏会自动地显示由当前页面的标题（headers）组成的链接，并按照页面本身的结构进行嵌套，你可以通过 themeConfig.sidebarDepth 来修改它的行为。 默认的深度是 1，它将提取到 h2 的标题，设置成 0 将会禁用标题（headers）链接，同时，最大的深度为 2，它将同时提取 h2 和 h3 标题。</p> <p>也可以使用 YAML front matter 来为某个页面重写此值：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>//想要修改页面的头部位置   
+----
+sidebarDepth: 2
+---
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="显示所有页面的标题链接"><a href="#显示所有页面的标题链接" class="header-anchor">#</a> 显示所有页面的标题链接</h3> <p>默认情况下，侧边栏只会显示由当前活动页面的标题（headers）组成的链接，你可以将 themeConfig.displayAllHeaders 设置为 true 来显示所有页面的标题链接：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>module.exports = {
+  themeConfig: {
+    displayAllHeaders: true // 默认值：false
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="禁用侧边栏"><a href="#禁用侧边栏" class="header-anchor">#</a> 禁用侧边栏</h3> <p>你可以通过 YAML front matter 来禁用指定页面的侧边栏：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>---
+sidebar: false
+---
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="搜索框"><a href="#搜索框" class="header-anchor">#</a> 搜索框</h2> <h3 id="内置搜索"><a href="#内置搜索" class="header-anchor">#</a> 内置搜索</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>module.exports = {
+  themeConfig: {
+    search: false,
+    searchMaxSuggestions: 10
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>search: false 禁用或者开启内置搜索框。false为禁用，默认为true</li> <li>searchMaxSuggestions 调整默认搜索框显示的搜索结果数量。</li></ul> <p>你可以通过在页面的 frontmatter 中设置 tags 来优化搜索结果：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 当前页面优化搜索结果
+---
+tags: 
+  - 配置
+  - 主题
+  - 索引
+---
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>你可以通过在页面的 frontmatter 中设置 search 来对单独的页面禁用内置的搜索框：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 当前页面禁用搜索
+---
+search: false
+---
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>内置搜索只会为页面的标题、h2 、 h3 以及 tags 构建搜索索引。 如果你需要全文搜索，你可以使用 Algolia 搜索。</p></div> <h2 id="最后更新时间"><a href="#最后更新时间" class="header-anchor">#</a> 最后更新时间</h2> <p>你可以通过 themeConfig.lastUpdated 选项来获取每个文件最后一次 git 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>module.exports = {
+  themeConfig: {
+    lastUpdated: 'Last Updated', // string | boolean
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><blockquote><p>使用须知
+由于 lastUpdated 是基于 git 的, 所以你只能在一个基于 git 的项目中启用它。此外，由于使用的时间戳来自 git commit，因此它将 仅在给定页的第一次提交之后显示，并且仅在该页面后续提交更改时更新。</p></blockquote> <h3 id="上-下一篇链接"><a href="#上-下一篇链接" class="header-anchor">#</a> 上 / 下一篇链接</h3> <p>上一篇和下一篇文章的链接将会自动地根据当前页面的侧边栏的顺序来获取。你可以通过 themeConfig.nextLinks 和 themeConfig.prevLinks 来全局禁用它们：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
+    nextLinks: false,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
+    prevLinks: false
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>你也可以使用 YAML front matter 来明确地重写或者禁用它们：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>---
+prev: ./some-other-page
+next: false
+---
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="页面滚动"><a href="#页面滚动" class="header-anchor">#</a> 页面滚动</h2> <p>你可以通过 themeConfig.smoothScroll 选项来启用页面滚动效果。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    smoothScroll: true
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>做好上面的配置后就可以写文章了，具体的文章就是在示例目录里面的life01.md、 life012.md等文件里面</p> <h2 id="front-matter参数"><a href="#front-matter参数" class="header-anchor">#</a> front-matter参数</h2> <p>Front-matter 是文件最上方以 --- 分隔的区域，用于指定个别文件的变量 以下是预先定义的参数，可在模板中使用这些参数值并加以利用
+可参考<a href="https://www.vuepress.cn/guide/frontmatter.html#%E5%85%B6%E4%BB%96%E6%A0%BC%E5%BC%8F%E7%9A%84-front-matter" target="_blank" rel="noopener noreferrer">官网<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <table><thead><tr><th>参数</th> <th>描述</th> <th>默认值</th></tr></thead> <tbody><tr><td>layout</td> <td>布局</td> <td></td></tr> <tr><td>title</td> <td>标题</td> <td>文章的文件名</td></tr> <tr><td>date</td> <td>建立日期</td> <td>文件建立日期</td></tr> <tr><td>updated</td> <td>更新日期</td> <td>文件更新日期</td></tr> <tr><td>description</td> <td>描述</td> <td></td></tr></tbody></table></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">4/25/2022, 3:51:02 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/front-end-docs/front-end/vuepress/目录结构.html" class="prev">
+        目录结构
+      </a></span> <span class="next"><a href="/front-end-docs/front-end/vuepress/Markdown详解.html">
+        Markdown详解
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/front-end-docs/assets/js/app.a2f340e5.js" defer></script><script src="/front-end-docs/assets/js/2.ee26938b.js" defer></script><script src="/front-end-docs/assets/js/13.d8fc54e4.js" defer></script>
+  </body>
+</html>
