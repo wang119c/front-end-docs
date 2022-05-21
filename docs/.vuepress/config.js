@@ -1,4 +1,6 @@
+const nav = require('./nav')
 const menuVuePress = require('./menu/vuepress.js')
+const menuOther = require('./menu/other.js')
 module.exports = {
 	title: '大前端杂记', // 设置网站标题
 	description: '记录工作中遇到问题及处理方案,以及一些插件文档', // 网站的描述
@@ -19,28 +21,7 @@ module.exports = {
 	themeConfig: {
 		logo: '/images/hero.png',
 		displayAllHeaders: false,
-		nav: [{
-			text: '主页',
-			link: '/'
-		}, {
-			text: '前端',
-			items: [{
-					text: 'vue',
-					link: '/front-end/vue/vue01'
-				},
-				{
-					text: 'react',
-					link: '/front-end/react/react01'
-				},
-				{
-					text: 'vuepress',
-					link: '/front-end/vuepress/快速搭建'
-				}
-			]
-		}, {
-			text: 'GitHub',
-			link: 'https://github.com/wang119c/front-end-docs'
-		}],
+		nav: nav,
 		sidebar: {
 			'/front-end/vue/': [{
 				title: 'vue笔记',
@@ -66,7 +47,8 @@ module.exports = {
 					}
 				]
 			}],
-			'/front-end/vuepress/': menuVuePress
+			'/front-end/vuepress/': menuVuePress, // vuepress
+			'/front-end/other/': menuOther  // 杂记
 		},
 		sidebarDepth: 2,
 		lastUpdated: 'Last Updated'
